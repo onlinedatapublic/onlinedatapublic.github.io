@@ -1,0 +1,170 @@
+.badan {
+    padding: 1px;
+    margin: 0px;
+}
+.kepala {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 15px;
+    
+}
+
+.subjudul{
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 50px;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.button1 {
+    border-radius: 15px;
+    background-color: silver;
+    text-align: center;
+    padding: 10px;
+    height: fit-content;
+}
+
+ul li a {
+    text-decoration: none;
+  }
+
+.logo1 {
+    width: 200px; /* Lebar video mengikuti lebar header */
+    height: 200px; /* Tinggi video mengikuti rasio aspeknya */
+    top: 0;
+    left: 0;
+    z-index: 1; /* Menempatkan video di lapisan belakang */
+    text-align: center;
+    border-radius: 100px;
+    border: 3px solid transparent;
+    animation: rotateAndColorChange 5s linear infinite;
+  }
+
+  @keyframes rotateAndColorChange {
+    0% {
+      transform: rotate(0deg);
+      border-color: white;
+    }
+    25% {
+      transform: rotate(0deg);
+      border-color: green;
+    }
+    50% {
+      transform: rotate(0deg);
+      border-color: blue;
+    }
+    75% {
+      transform: rotate(0deg);
+      border-color: orange;
+    }
+    100% {
+      transform: rotate(0deg);
+      border-color: white;
+    }
+  }
+  
+  .kepaladiv{
+    display: flex;
+    border: 1px solid yellow;
+    border-radius: 15px;
+
+  }
+  .info1 {
+    height: 30px;
+    width: 85%;
+    background-color: white;
+    color: black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+
+  }
+  .info {
+    height: 30px;
+    width: 15%;
+    background-color: navy;
+    color: white;
+    border-radius: ;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .teks1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin: 1px;
+  }
+  .marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .marquee-text {
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin: 1px;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .kotak1{
+    padding: 0px;
+    margin: 0px;
+    height: 700px;
+    width: 100%;
+    background-color: silver;
+    border-radius: 15px;
+  }
+  .judulacara{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .ributayok{
+    display: flex;
+  }
+  .sisikiri{
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+    color: black;
+
+  }
+  .sisikanan{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+  }
